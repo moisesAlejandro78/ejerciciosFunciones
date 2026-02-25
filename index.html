@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilos.css" rel="stylesheets">
+    <title>Funciones</title>
+</head>
+
+<body>
+    <h1>Ejercicio de Funciones</h1>
+    <div>
+        <h2>Funcion sin parametros</h2>
+        <!-- <form id="Aritmetica">
+            <label for="num1">Introduzca numero 1:</label>
+            <input type="number" id="num1" placeholder="Ej. 1" name="num1" required>
+            <label for="num2">Introduzca numero 2:</label>
+            <input type="number" id="num2" placeholder="Ej. 2" name="num2" required>
+            <input type="radio" name="operaciones" value="suma" required>Suma
+            <input type="radio" name="operaciones" value="resta" required>Resta
+            <input type="radio" name="operaciones" value="mult" required>Multiplicacion
+            <input type="radio" name="operaciones" value="div" re>Division
+            <button >Calcular</button>
+            <button type="reset">Limpiar</button>
+            <output id="resultado">0</output>
+        </form> -->
+        <div>
+            <label for="num1">Introduzca el primer numero:</label>
+            <input type="number" id="num1"  placeholder="Ej. 1">
+            <label for="num2">Introduzca el segundo numero:</label>
+            <input type="number" id="num2" placeholder="Ej. 2">
+            <p>Introduzca un signo</p>
+            <input type="text" id="signo" placeholder="Introduzca un signo: +, -, *, /">
+            <button onclick="calcular()">Calcular</button>
+            <button onclick="limpiarCampos()">Limpiar Campos</button>
+            <p>El resultado es: </p>
+            <p id="advertencia"></p>
+            <p id="resultado"></p>
+        </div>
+        <div>
+            <label for="nxn">Introduzca el tamaño de la matriz nxn:</label>
+            <input type="number" id="matrizNXN" placeholder="Tamaño de la matriz.">
+            <button onclick="generarMatriz()">Generar matriz</button>
+            <p id="matriz"></p>
+        </div>
+
+    </div><!-- funcion sin parametros -->
+    <div>
+        <h2>Funcion con parametros</h2>
+
+    </div>
+    <div>
+        <h2>Funcion con retorno de valor</h2>
+
+    </div>
+    <script src="ejercicioFunciones.js"></script>
+</body>
+
+</html>
